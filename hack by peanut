@@ -141,9 +141,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/baconplayer009/script
 end
 })
 Page.Button({
-        Text = "",
+        Text = "Rejoin Game",
         Callback = function()
-loadstring(game:HttpGet("", true))()
+
 end
 })
 Page.Button({
