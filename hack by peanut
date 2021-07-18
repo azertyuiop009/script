@@ -143,7 +143,7 @@ end
 Page.Button({
         Text = "Rejoin Game",
         Callback = function()
-
+game:GetService("TeleportService"):Teleport(game.PlaceId, game.Players.LocalPlayer)
 end
 })
 Page.Button({
